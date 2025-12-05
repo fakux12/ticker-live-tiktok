@@ -29,4 +29,12 @@ body {
 @keyframes marquee {
   0%   { transform: translate(0, 0); } 
   100% { transform: translate(-100%, 0); }
+
+}
+
+.robux-icon {
+    height: 40px; /* Tamaño del logo. Ajusta este valor (ej: 35px o 45px) */
+    vertical-align: middle; /* Alinea el logo verticalmente con el texto */
+    margin: 0 5px 0 5px; /* Pequeño margen alrededor del logo */
+
 }
