@@ -1,11 +1,16 @@
 body {
-  background-color: transparent; /* Mantiene el fondo transparente para tu stream */
+  background-color: transparent; 
   margin: 0;
-  font-family: Arial, sans-serif;
-  color: yellow; /* Color del texto (puedes cambiarlo) */
-  font-size: 38px; /* Tamaño de letra (puedes cambiarlo) */
-  font-weight: bold;
-  text-shadow: 2px 2px 4px #000000; /* Sombra para que el texto resalte */
+  font-family: 'Arial Black', sans-serif; 
+  color: #00BFFF; /* Color base para TODO el texto: Azul brillante */
+  font-size: 42px; 
+  font-weight: 900; 
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); /* Sombra oscura para contraste */
+}
+
+/* Regla para que el texto y el precio dentro de esta clase sean BLANCOS */
+.precio-blanco {
+    color: #FFFFFF; /* Color Blanco puro */
 }
 
 .ticker-container {
@@ -38,3 +43,4 @@ body {
     margin: 0 5px 0 5px; /* Pequeño margen alrededor del logo */
 
 }
+
